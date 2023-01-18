@@ -1,0 +1,61 @@
+body {
+    background-color: #006363;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    
+    text-align: center;
+}
+
+
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.game-field {
+    background-color: #1d7373;
+    min-width: 420px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    background-color: #ff4040;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 12px 24px;
+}
+
+.banner {
+    width: 320px;
+    margin: 0 0 24px 0;
+}
+
+
+.card {
+    width: 80px;
+    height: 80px;
+    background-image: url('../image/018.svg');
+    background-size: cover;
+    margin: 6px;
+    transition: transform 0.3s, background-image 0.3s;
+    transform: rotateY(180deg);
+}
+
+.card.open {
+    transform: rotateY(0);
+}
+
+.row {
+    display: flex;
+    
+}
